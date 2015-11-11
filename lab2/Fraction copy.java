@@ -139,7 +139,8 @@ class Fraction {
     Fraction sumOfThree = f0.add(f1).add(f2);             // Sum of f0, f1, and f2.
 
     System.out.println("The sum of " + f1 + " and " + f2 + " is " + sumOfTwo);
-    System.out.println("The sum of " + f0 + ", " + f1 + " and " + f2 + " is " + sumOfThree);
+    System.out.println("The sum of " + f0 + ", " + f1 + " and " + f2 + " is " +
+                       sumOfThree);
     
 
     /* Test the methods used in Part III. */
@@ -147,7 +148,8 @@ class Fraction {
 
     f3.changeNumerator(7);
     System.out.println("Now f3 is " + f3 + ", which should be 7/20");
-    System.out.println("The total number of Fraction objects is " + f3.fracs());
+    System.out.println("The total number of Fraction objects is " +
+                       f3.fracs());
 
     /* Test gcd function (static method). */
     System.out.println("\nTesting gcd:");
