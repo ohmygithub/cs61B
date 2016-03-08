@@ -13,4 +13,4 @@ https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C
 
 # How to start
 
-Download files, open with a JAVA IDE(such as eclipse). Run java document with main()function.
+Download HW or lab folders, open with a JAVA IDE(such as eclipse). Run java file with main()function in it.
